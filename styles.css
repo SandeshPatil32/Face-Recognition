@@ -1,0 +1,135 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: rgb(242, 241, 241);
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Front Section */
+.front-section {
+  text-align: center;
+  padding: 300px 20px;
+  background: url('image.jpg') no-repeat center center/cover;
+  color: whitesmoke;
+
+}
+
+.btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  line-height: 5;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+
+
+/* Classroom Section */
+.classroom-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#video-box {
+  display: inline-block;
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#mark-attendance {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#attendance-status {
+  margin-top: 10px;
+}
+
+/* login Section */
+.login-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
